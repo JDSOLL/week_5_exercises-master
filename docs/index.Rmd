@@ -1,0 +1,47 @@
+---
+# title: "My Cheat Sheet for R Markdown Creation"
+# author: "Joshua Soll"
+output: html_document
+# date: "2024-09-19"
+bibliography: RMDCheatSheet.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# [***Header 1***]{.underline} {.tabset}
+
+Adding a '\#' first in code creates the big header/header 1, and {.underline}{.tabset} in the code after the header lets you underline then create tabs for headers below
+
+## ***Header 2 Tab 1***
+
+### ***Header 3***
+
+Create The above "Header 3" within a tab by using '\###', basically assigning a third level of header below the main and the header 2's, where tabs were created for the second header by putting the tabset code for header 1
+
+```{r}
+#Can make a code chunk using ```{r} and closing with ```
+
+x <- 15
+print(x)
+
+#inputs and outputs will be shown
+```
+
+#### Creating a comment
+
+You can also add comments that are unseen on the front end by highlighting text and typing command + shift + c
+
+<!-- test comment here, should be unseen on the html front -->
+
+## ***Header 2 Tab 2***
+
+### Can do citations too. It is easiest to use the Visual Tab, click "insert" and then "citation", and select your citations.
+
+[@baumgartner2011]
+
+[@cauchy2023]
+
+###Use Visual tab to insert most things
+This includes any kind of graphics, and citations. It is easier than doing it in the source code.
