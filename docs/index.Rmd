@@ -46,4 +46,3 @@ You can also add comments that are unseen on the front end by highlighting text 
 ###Use Visual tab to insert most things
 This includes any kind of graphics, and citations. It is easier than doing it in the source code.
 
-testtesttest
